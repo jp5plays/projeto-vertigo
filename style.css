@@ -5,7 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* 1 rem = 16px */
 header{
     background-image: url(./imagens/bg-mobal.png);
     background-size: cover;
+    height: 8.735rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+/* display fles para mexer nos intens para cima para baix etc sempre usar display flex */
+/* justify-content:Horizontal */
+/* align-items: vertical */
 }
