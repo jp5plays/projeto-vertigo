@@ -1,3 +1,11 @@
 *{
     font-family: 'Titillium Web', sans-serif;
+    /* reset css */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./imagens/bg-mobal.png);
+    background-size: cover;
 }
