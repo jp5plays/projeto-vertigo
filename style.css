@@ -16,4 +16,23 @@ header{
 /* display fles para mexer nos intens para cima para baix etc sempre usar display flex */
 /* justify-content:Horizontal */
 /* align-items: vertical */
+margin-bottom: 3.7rem;
+}
+:root{
+--gray-800:#1E293B;
+--gray-600:#475569;
+}
+/* root = classe só do css = tag html */
+/* serve para guardar variáveis igual ap python por exemplo */
+/* exmplo: numero=20 */
+/* print(numero) */
+main{
+    padding-inline: 1.5rem;
+}
+.descricao h1{
+    color: var(--gray-800);
+    margin-bottom: 1rem;
+    /* margin-bottom = distância em baixo */
+    /* margin-top = distância em cima */
+    font-size: 1.5625rem;
 }
