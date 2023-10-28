@@ -21,6 +21,7 @@ margin-bottom: 3.7rem;
 :root{
 --gray-800:#1E293B;
 --gray-600:#475569;
+--purple:#7c3aed;
 }
 /* root = classe só do css = tag html */
 /* serve para guardar variáveis igual ap python por exemplo */
@@ -42,4 +43,40 @@ main{
 }
 .descricao{
     margin-bottom: 2.5rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+.input-box div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login label{
+       font-size: 0.875rem;
+       color:var(--gray-800);
+       font-weight: 600;
+
+}
+.login a {
+    color:var(--purple);
+    text-decoration: none;
+ font-size: 0.875rem;   
+ font-weight: 600;
+}
+
+.login a:hover{
+    text-decoration:underline ;
+}
+.login a{
+    color: var(--purple);
+    text-decoration: none;
+    font: 8.765rem;
+    font-weight: 600px;
+}
+.login a:hover{
+text-decoration: underline;
 }
