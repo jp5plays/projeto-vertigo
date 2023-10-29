@@ -22,6 +22,8 @@ margin-bottom: 3.7rem;
 --gray-800:#1E293B;
 --gray-600:#475569;
 --purple:#7c3aed;
+--gray-200:#e2f8e0;
+--gray-400:#e2e8f0;
 }
 /* root = classe só do css = tag html */
 /* serve para guardar variáveis igual ap python por exemplo */
@@ -48,19 +50,38 @@ main{
 .input-box {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    
 }
 .input-box div{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .login label{
        font-size: 0.875rem;
        color:var(--gray-800);
        font-weight: 600;
-
 }
+.login input{
+    padding: 1rem 0.35rem ;
+    border: 1px solid var(--gray-200);
+    border-radius: 0.25rem;
+    color: var(--gray-800);
+}
+login input::placeholder{
+    color:var(--gray-400);
+}
+.login input:hover,
+.login input:focus{
+    outline: 1px solid var(--purple);
+}
+
+
+
 .login a {
     color:var(--purple);
     text-decoration: none;
