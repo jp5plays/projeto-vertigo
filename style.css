@@ -24,6 +24,7 @@ margin-bottom: 3.7rem;
 --purple:#7c3aed;
 --gray-200:#e2f8e0;
 --gray-400:#e2e8f0;
+--whitte:#fff;
 }
 /* root = classe só do css = tag html */
 /* serve para guardar variáveis igual ap python por exemplo */
@@ -100,4 +101,16 @@ login input::placeholder{
 }
 .login a:hover{
 text-decoration: underline;
+}
+.login button{
+    margin-top:1rem;
+    padding-block:1rem ; 
+    width: 100%;
+    background-color:var(--purple);
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--whitte); 
+
 }
