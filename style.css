@@ -25,6 +25,7 @@ margin-bottom: 3.7rem;
 --gray-200:#e2f8e0;
 --gray-400:#e2e8f0;
 --whitte:#fff;
+--litght-purple:#9F67FF;
 }
 /* root = classe só do css = tag html */
 /* serve para guardar variáveis igual ap python por exemplo */
@@ -115,6 +116,11 @@ text-decoration: underline;
     color: var(--whitte); 
 
 }
+.login button:hover{
+    background: var(--litght-purple);
+    transition: 0.3s;
+    cursor: pointer;
+}
 .login > p{
    color: var(--gray-600);
 
@@ -126,6 +132,7 @@ text-decoration: underline;
 .bg-desktop{
     display: none;
 }
+
 @media(min-width:1000px){
     body{
         display:flex;
@@ -135,6 +142,7 @@ text-decoration: underline;
         justify-content: flex-start;
         margin: 2.5rem 7rem 7rem;
         height: fit-content;
+
     }
     header img{
         width: 10rem;
@@ -147,9 +155,19 @@ text-decoration: underline;
     }
     .conteudo{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .bg-desktop{
         display: block;
         width: 100%;
     }
+    .descricao h1{
+        font-size: 2.25rem;
+    }
+    .descricao p{
+        font-size: 1rem;
+    }
+
 }
